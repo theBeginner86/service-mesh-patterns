@@ -10,7 +10,7 @@ on:
         required: true
       pattern_url:
         description: "URL of the pattern to be deployed"
-        required: false
+        required: true
       pattern_file:
         description: "Name of the pattern file relative to the .github folder"
         required: false
