@@ -20,4 +20,4 @@ jobs:
         with:
           provider_token: ${{ github.event.inputs.provider_token }}
           platform: docker
-          url: https://raw.githubusercontent.com/service-mesh-patterns/service-mesh-patterns/master/samples/IstioFilterPattern.yaml
+          pattern_url: https://raw.githubusercontent.com/service-mesh-patterns/service-mesh-patterns/master/samples/IstioFilterPattern.yaml
