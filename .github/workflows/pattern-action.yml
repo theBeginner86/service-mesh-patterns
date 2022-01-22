@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mesheryctl pattern action
-        uses: sayantan1413/mesheryctl-service-mesh-patterns-action@master
+        uses: theBeginner86/mesheryctl-service-mesh-patterns-action@master
         with:
           provider_token: ${{ github.event.inputs.provider_token }}
           platform: docker
